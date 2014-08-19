@@ -13,11 +13,11 @@ public class playerControls : MonoBehaviour {
 	private float maxSpeed;
 	private Vector2 distToMove;
 
-	private playerPhsyics playerPhysics; 
+	private playerPhysics playerPhysics; 
 
 
 	void Start () {
-		playerPhsyics = GetComponent<playerPhysics>(); 
+		playerPhysics = GetComponent<playerPhysics>(); 
 
 	}
 	
